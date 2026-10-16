@@ -1,0 +1,47 @@
+
+id: sdr_aoa_visualizer_3d
+label: 3D CST AoA Visualizer
+category: '[SDR]'
+
+
+templates:
+  imports: import sdr
+  make: sdr.aoa_visualizer_3d(${true_az_deg}, ${true_el_deg}, ${beam_half_deg}, ${update_hz})
+  callbacks:
+    - set_true_az_deg(${true_az_deg})
+    - set_true_el_deg(${true_el_deg})
+    - set_beam_half_deg(${beam_half_deg})
+
+parameters:
+  - id: true_az_deg
+    label: Target Azimuth (deg)
+    dtype: real
+    default: '0.0'
+
+  - id: true_el_deg
+    label: Target Elevation (deg)
+    dtype: real
+    default: '0.0'
+
+  - id: beam_half_deg
+    label: Beam Half Angle (deg)
+    dtype: real
+    default: '10.0'
+
+  - id: update_hz
+    label: Visualization Update Rate (Hz)
+    dtype: real
+    default: '5.0'
+
+inputs:
+  - label: AZ
+    domain: stream
+    dtype: float
+
+  - label: EL
+    domain: stream
+    dtype: float
+
+outputs: []
+
+file_format: 1

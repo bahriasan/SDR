@@ -1,0 +1,76 @@
+
+id: sdr_aoa_estimator
+label: 4 Channel CST AoA Estimator
+category: '[SDR]'
+
+templates:
+  imports: import sdr
+  make: sdr.aoa_estimator(${pattern_UL}, ${pattern_UR}, ${pattern_LL}, ${pattern_LR}, ${window_size}, ${grid_step_deg}, ${max_abs_elevation})
+
+parameters:
+  - id: pattern_UL
+    label: CST Pattern UL
+    dtype: string
+    default: "'C:/SDR/WS/SDR/SDR_generic/antenna/c5_klasik_1_UL_1575.42MHz_gerceklesen_kazanc.txt'"
+
+  - id: pattern_UR
+    label: CST Pattern UR
+    dtype: string
+    default: "'C:/SDR/WS/SDR/SDR_generic/antenna/c5_klasik_1_UR_1575.42MHz_gerceklesen_kazanc.txt'"
+
+  - id: pattern_LL
+    label: CST Pattern LL
+    dtype: string
+    default: "'C:/SDR/WS/SDR/SDR_generic/antenna/c5_klasik_1_LL_1575.42MHz_gerceklesen_kazanc.txt'"
+
+  - id: pattern_LR
+    label: CST Pattern LR
+    dtype: string
+    default: "'C:/SDR/WS/SDR/SDR_generic/antenna/c5_klasik_1_LR_1575.42MHz_gerceklesen_kazanc.txt'"
+
+  - id: window_size
+    label: Window Size
+    dtype: int
+    default: '1024'
+
+  - id: grid_step_deg
+    label: Grid Step (deg)
+    dtype: int
+    default: '1'
+
+  - id: max_abs_elevation
+    label: Max Absolute Elevation (deg)
+    dtype: int
+    default: '85'
+
+inputs:
+  - label: UL
+    domain: stream
+    dtype: complex
+
+  - label: UR
+    domain: stream
+    dtype: complex
+
+  - label: LL
+    domain: stream
+    dtype: complex
+
+  - label: LR
+    domain: stream
+    dtype: complex
+
+outputs:
+  - label: AZ
+    domain: stream
+    dtype: float
+
+  - label: EL
+    domain: stream
+    dtype: float
+
+  - label: FIT
+    domain: stream
+    dtype: float
+
+file_format: 1

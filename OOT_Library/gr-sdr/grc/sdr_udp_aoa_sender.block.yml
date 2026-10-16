@@ -1,0 +1,46 @@
+id: sdr_udp_aoa_sender
+label: UDP AoA Telemetry Sender
+category: '[SDR]'
+
+templates:
+  imports: import sdr
+  make: sdr.udp_aoa_sender(${true_az_deg}, ${true_el_deg}, ${host}, ${port}, ${send_hz})
+  callbacks:
+    - set_true_az_deg(${true_az_deg})
+    - set_true_el_deg(${true_el_deg})
+
+parameters:
+  - id: true_az_deg
+    label: Target Azimuth (deg)
+    dtype: real
+    default: '0.0'
+  - id: true_el_deg
+    label: Target Elevation (deg)
+    dtype: real
+    default: '0.0'
+  - id: host
+    label: Receiver IP
+    dtype: string
+    default: "'127.0.0.1'"
+  - id: port
+    label: UDP Port
+    dtype: int
+    default: '50100'
+  - id: send_hz
+    label: Max Send Rate (Hz)
+    dtype: real
+    default: '10.0'
+
+inputs:
+  - label: AZ
+    domain: stream
+    dtype: float
+  - label: EL
+    domain: stream
+    dtype: float
+  - label: FIT
+    domain: stream
+    dtype: float
+
+outputs: []
+file_format: 1

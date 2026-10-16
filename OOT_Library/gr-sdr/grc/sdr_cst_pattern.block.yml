@@ -1,0 +1,53 @@
+id: sdr_cst_pattern
+label: CST Pattern + Target Polarization
+category: '[SDR]'
+
+templates:
+  imports: import sdr
+  make: sdr.cst_pattern(${pattern_file}, ${azm_deg}, ${elev_deg}, ${pol_angle_deg}, ${ellipticity_deg})
+  callbacks:
+    - set_azm_deg(${azm_deg})
+    - set_elev_deg(${elev_deg})
+    - set_pol_angle_deg(${pol_angle_deg})
+    - set_ellipticity_deg(${ellipticity_deg})
+
+parameters:
+  - id: pattern_file
+    label: CST Pattern File
+    dtype: string
+    default: "'C:/SDR/WS/SDR/SDR_generic/antenna/c5_klasik_1_UL_1575.42MHz_gerceklesen_kazanc.txt'"
+
+  - id: azm_deg
+    label: Target Azimuth (deg)
+    dtype: real
+    default: '0.0'
+
+  - id: elev_deg
+    label: Target Elevation (deg)
+    dtype: real
+    default: '0.0'
+
+  - id: pol_angle_deg
+    label: Polarization Angle (deg)
+    dtype: real
+    default: '0.0'
+
+  - id: ellipticity_deg
+    label: Ellipticity Angle (deg)
+    dtype: real
+    default: '0.0'
+
+inputs:
+  - label: in
+    domain: stream
+    dtype: complex
+    vlen: 1
+
+outputs:
+  - label: out
+    domain: stream
+    dtype: complex
+    vlen: 1
+
+file_format: 1
+

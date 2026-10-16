@@ -1,0 +1,628 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Public/CMake/share/cmake-4.5/Modules/CMakeDetermineSystem.cmake:220 (message)"
+      - "CMakeLists.txt:20 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Public/CMake/share/cmake-4.5/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:20 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "C:/Users/Public/Radioconda/"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/"
+      - "C:/Users/Public/Radioconda/Library/bin/"
+      - "C:/Users/Public/Radioconda/Scripts/"
+      - "C:/Users/Public/Radioconda/bin/"
+      - "C:/Users/Public/Radioconda/condabin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/Public/CMake/bin/"
+      - "C:/Users/Public/Ninja/"
+      - "C:/SDR/WS/SDR_generic/gr-sdr/build/"
+    searched_directories:
+      - "C:/Users/Public/Radioconda/ninja-build.com"
+      - "C:/Users/Public/Radioconda/ninja-build.exe"
+      - "C:/Users/Public/Radioconda/ninja-build"
+      - "C:/Users/Public/Radioconda/ninja.com"
+      - "C:/Users/Public/Radioconda/ninja.exe"
+      - "C:/Users/Public/Radioconda/ninja"
+      - "C:/Users/Public/Radioconda/samu.com"
+      - "C:/Users/Public/Radioconda/samu.exe"
+      - "C:/Users/Public/Radioconda/samu"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/ninja-build.com"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/ninja-build.exe"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/ninja-build"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/ninja.com"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/ninja.exe"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/ninja"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/samu.com"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/samu.exe"
+      - "C:/Users/Public/Radioconda/Library/mingw-w64/bin/samu"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/ninja-build.com"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/ninja-build.exe"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/ninja-build"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/ninja.com"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/ninja.exe"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/ninja"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/samu.com"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/samu.exe"
+      - "C:/Users/Public/Radioconda/Library/usr/bin/samu"
+      - "C:/Users/Public/Radioconda/Library/bin/ninja-build.com"
+      - "C:/Users/Public/Radioconda/Library/bin/ninja-build.exe"
+      - "C:/Users/Public/Radioconda/Library/bin/ninja-build"
+      - "C:/Users/Public/Radioconda/Library/bin/ninja.com"
+      - "C:/Users/Public/Radioconda/Library/bin/ninja.exe"
+      - "C:/Users/Public/Radioconda/Library/bin/ninja"
+      - "C:/Users/Public/Radioconda/Library/bin/samu.com"
+      - "C:/Users/Public/Radioconda/Library/bin/samu.exe"
+      - "C:/Users/Public/Radioconda/Library/bin/samu"
+      - "C:/Users/Public/Radioconda/Scripts/ninja-build.com"
+      - "C:/Users/Public/Radioconda/Scripts/ninja-build.exe"
+      - "C:/Users/Public/Radioconda/Scripts/ninja-build"
+      - "C:/Users/Public/Radioconda/Scripts/ninja.com"
+      - "C:/Users/Public/Radioconda/Scripts/ninja.exe"
+      - "C:/Users/Public/Radioconda/Scripts/ninja"
+      - "C:/Users/Public/Radioconda/Scripts/samu.com"
+      - "C:/Users/Public/Radioconda/Scripts/samu.exe"
+      - "C:/Users/Public/Radioconda/Scripts/samu"
+      - "C:/Users/Public/Radioconda/bin/ninja-build.com"
+      - "C:/Users/Public/Radioconda/bin/ninja-build.exe"
+      - "C:/Users/Public/Radioconda/bin/ninja-build"
+      - "C:/Users/Public/Radioconda/bin/ninja.com"
+      - "C:/Users/Public/Radioconda/bin/ninja.exe"
+      - "C:/Users/Public/Radioconda/bin/ninja"
+      - "C:/Users/Public/Radioconda/bin/samu.com"
+      - "C:/Users/Public/Radioconda/bin/samu.exe"
+      - "C:/Users/Public/Radioconda/bin/samu"
+      - "C:/Users/Public/Radioconda/condabin/ninja-build.com"
+      - "C:/Users/Public/Radioconda/condabin/ninja-build.exe"
+      - "C:/Users/Public/Radioconda/condabin/ninja-build"
+      - "C:/Users/Public/Radioconda/condabin/ninja.com"
+      - "C:/Users/Public/Radioconda/condabin/ninja.exe"
+      - "C:/Users/Public/Radioconda/condabin/ninja"
+      - "C:/Users/Public/Radioconda/condabin/samu.com"
+      - "C:/Users/Public/Radioconda/condabin/samu.exe"
+      - "C:/Users/Public/Radioconda/condabin/samu"
+      - "C:/Windows/System32/ninja-build.com"
+      - "C:/Windows/System32/ninja-build.exe"
+      - "C:/Windows/System32/ninja-build"
+      - "C:/Windows/System32/ninja.com"
+      - "C:/Windows/System32/ninja.exe"
+      - "C:/Windows/System32/ninja"
+      - "C:/Windows/System32/samu.com"
+      - "C:/Windows/System32/samu.exe"
+      - "C:/Windows/System32/samu"
+      - "C:/Windows/ninja-build.com"
+      - "C:/Windows/ninja-build.exe"
+      - "C:/Windows/ninja-build"
+      - "C:/Windows/ninja.com"
+      - "C:/Windows/ninja.exe"
+      - "C:/Windows/ninja"
+      - "C:/Windows/samu.com"
+      - "C:/Windows/samu.exe"
+      - "C:/Windows/samu"
+      - "C:/Windows/System32/wbem/ninja-build.com"
+      - "C:/Windows/System32/wbem/ninja-build.exe"
+      - "C:/Windows/System32/wbem/ninja-build"
+      - "C:/Windows/System32/wbem/ninja.com"
+      - "C:/Windows/System32/wbem/ninja.exe"
+      - "C:/Windows/System32/wbem/ninja"
+      - "C:/Windows/System32/wbem/samu.com"
+      - "C:/Windows/System32/wbem/samu.exe"
+      - "C:/Windows/System32/wbem/samu"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu"
+      - "C:/Windows/System32/OpenSSH/ninja-build.com"
+      - "C:/Windows/System32/OpenSSH/ninja-build.exe"
+      - "C:/Windows/System32/OpenSSH/ninja-build"
+      - "C:/Windows/System32/OpenSSH/ninja.com"
+      - "C:/Windows/System32/OpenSSH/ninja.exe"
+      - "C:/Windows/System32/OpenSSH/ninja"
+      - "C:/Windows/System32/OpenSSH/samu.com"
+      - "C:/Windows/System32/OpenSSH/samu.exe"
+      - "C:/Windows/System32/OpenSSH/samu"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/ninja-build.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/ninja-build.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/ninja-build"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/ninja.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/ninja.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/ninja"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/samu.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/samu.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Microsoft/WindowsApps/samu"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/ninja-build.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/ninja-build.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/ninja-build"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/ninja.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/ninja.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/ninja"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/samu.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/samu.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Microsoft VS Code/bin/samu"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/ninja-build.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/ninja-build.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/ninja-build"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/ninja.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/ninja.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/ninja"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/samu.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/samu.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/bin/samu"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/ninja-build.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/ninja-build.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/ninja-build"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/ninja.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/ninja.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/ninja"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/samu.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/samu.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/Git/cmd/samu"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/ninja-build.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/ninja-build.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/ninja-build"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/ninja.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/ninja.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/ninja"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/samu.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/samu.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/MiKTeX/miktex/bin/x64/samu"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/ninja-build.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/ninja-build.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/ninja-build"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/ninja.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/ninja.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/ninja"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/samu.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/samu.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Pandoc/samu"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/ninja-build.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/ninja-build.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/ninja-build"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/ninja.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/ninja.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/ninja"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/samu.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/samu.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Programs/npp.8.9.7.portable.x64/samu"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/ninja-build.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/ninja-build.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/ninja-build"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/ninja.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/ninja.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/ninja"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/samu.com"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/samu.exe"
+      - "C:/Users/Bahri Asan/AppData/Local/Python/pythoncore-3.14-64/Scripts/samu"
+      - "C:/Users/Public/CMake/bin/ninja-build.com"
+      - "C:/Users/Public/CMake/bin/ninja-build.exe"
+      - "C:/Users/Public/CMake/bin/ninja-build"
+      - "C:/Users/Public/CMake/bin/ninja.com"
+      - "C:/Users/Public/CMake/bin/ninja.exe"
+      - "C:/Users/Public/CMake/bin/ninja"
+      - "C:/Users/Public/CMake/bin/samu.com"
+      - "C:/Users/Public/CMake/bin/samu.exe"
+      - "C:/Users/Public/CMake/bin/samu"
+      - "C:/Users/Public/Ninja/ninja-build.com"
+      - "C:/Users/Public/Ninja/ninja-build.exe"
+      - "C:/Users/Public/Ninja/ninja-build"
+      - "C:/Users/Public/Ninja/ninja.com"
+    found: "C:/Users/Public/Ninja/ninja.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Public\\Radioconda"
+        - "C:\\Users\\Public\\Radioconda\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\Public\\Radioconda\\Library\\usr\\bin"
+        - "C:\\Users\\Public\\Radioconda\\Library\\bin"
+        - "C:\\Users\\Public\\Radioconda\\Scripts"
+        - "C:\\Users\\Public\\Radioconda\\bin"
+        - "C:\\Users\\Public\\Radioconda\\condabin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Pandoc"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\npp.8.9.7.portable.x64"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Users\\Public\\CMake\\bin"
+        - "C:\\Users\\Public\\Ninja"
+        - "."
+      CMAKE_INSTALL_PREFIX: "C:/Users/Public/Radioconda"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Users/Public/CMake/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Users/Public/CMake/share/cmake-4.5/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio/GnuradioConfig.cmake:13 (find_dependency)"
+      - "CMakeLists.txt:37 (find_package)"
+    name: "spdlog"
+    configs:
+      -
+        filename: "spdlog.cps"
+        kind: "cps"
+      -
+        filename: "spdlogConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "spdlog-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "spdlog"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/spdlogConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/spdlog-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/lib/cps/spdlog.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/share/cps/spdlog.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/spdlogConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/spdlog-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/lib/cps/spdlog.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/share/cps/spdlog.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/spdlogConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/spdlog-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/cmake/spdlogConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/cmake/spdlog-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cps/spdlog.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/share/cps/spdlog.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "C:/Users/Public/Radioconda/Library/lib/cmake/spdlog/spdlogConfig.cmake"
+      mode: "config"
+      version: "1.15.1"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Public\\Radioconda"
+        - "C:\\Users\\Public\\Radioconda\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\Public\\Radioconda\\Library\\usr\\bin"
+        - "C:\\Users\\Public\\Radioconda\\Library\\bin"
+        - "C:\\Users\\Public\\Radioconda\\Scripts"
+        - "C:\\Users\\Public\\Radioconda\\bin"
+        - "C:\\Users\\Public\\Radioconda\\condabin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Pandoc"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\npp.8.9.7.portable.x64"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Users\\Public\\CMake\\bin"
+        - "C:\\Users\\Public\\Ninja"
+        - "."
+      CMAKE_INSTALL_PREFIX: "C:/Users/Public/Radioconda"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/Public/CMake"
+        - "C:/Users/Public/Radioconda"
+      CMAKE_MODULE_PATH:
+        - "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio"
+        - "C:/SDR/WS/SDR_generic/gr-sdr/cmake/Modules"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:37 (find_package)"
+    name: "Gnuradio"
+    configs:
+      -
+        filename: "Gnuradio.cps"
+        kind: "cps"
+      -
+        filename: "gnuradio.cps"
+        kind: "cps"
+      -
+        filename: "GnuradioConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "gnuradio-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "3.10"
+      version_complete: "3.10"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Gnuradio"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/lib/cps/Gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/lib/cps/gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/share/cps/Gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/SDR/WS/SDR_generic/gr-sdr/build/CMakeFiles/pkgRedirects/share/cps/gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/lib/cps/Gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/lib/cps/gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/share/cps/Gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/share/cps/gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/cmake/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/cmake/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cps/Gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cps/gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/share/cps/Gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/share/cps/gnuradio.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-radar/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-radar/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-m2k/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-m2k/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-lora_sdr/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-lora_sdr/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-leo/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-leo/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-inspector/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-inspector/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-dect2/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-dect2/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-adsb/GnuradioConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio-adsb/gnuradio-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio/GnuradioConfig.cmake"
+      mode: "config"
+      version: "3.10.12.0"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\Public\\Radioconda"
+        - "C:\\Users\\Public\\Radioconda\\Library\\mingw-w64\\bin"
+        - "C:\\Users\\Public\\Radioconda\\Library\\usr\\bin"
+        - "C:\\Users\\Public\\Radioconda\\Library\\bin"
+        - "C:\\Users\\Public\\Radioconda\\Scripts"
+        - "C:\\Users\\Public\\Radioconda\\bin"
+        - "C:\\Users\\Public\\Radioconda\\condabin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Pandoc"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Programs\\npp.8.9.7.portable.x64"
+        - "C:\\Users\\Bahri Asan\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
+        - "C:\\Users\\Public\\CMake\\bin"
+        - "C:\\Users\\Public\\Ninja"
+        - "."
+      CMAKE_INSTALL_PREFIX: "C:/Users/Public/Radioconda"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/Public/CMake"
+        - "C:/Users/Public/Radioconda"
+      CMAKE_MODULE_PATH:
+        - "C:/Users/Public/Radioconda/Library/lib/cmake/gnuradio"
+        - "C:/SDR/WS/SDR_generic/gr-sdr/cmake/Modules"
+...

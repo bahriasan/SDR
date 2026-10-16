@@ -1,0 +1,8 @@
+OOT Tanımlamak için komutlar:
+gr_modtool newmod sdr
+
+gr_modtool add -t sync -l python cst_pattern
+
+OOT Modülleri Import Etmek için env değişkenleri:
+powershell -NoProfile -Command "[Environment]::SetEnvironmentVariable('PYTHONPATH', 'C:\SDR\WS\SDR_generic\gr-sdr\python', 'User')"
+powershell -NoProfile -Command "[Environment]::SetEnvironmentVariable('GRC_BLOCKS_PATH', 'C:\SDR\WS\SDR_generic\gr-sdr\grc', 'User')"
